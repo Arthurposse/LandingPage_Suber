@@ -6,11 +6,11 @@
   Integrantes
 </h3>
 
-<hr>
-
 <h5>
   Arthur Possebon e Lorenzo Vanlare
 </h5>
+
+<hr>
 
 <h3>
   O que cada integrante fez:
