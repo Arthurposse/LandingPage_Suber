@@ -3,8 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
-    text-decoration: none;
 }
+
+/* Heade */
 
 header{
     display: flex;
@@ -15,6 +16,10 @@ header{
     width: 100vw;
     height: 10%;
     padding: 1%;
+}
+
+header a {
+    text-decoration: none;
 }
 
 header #menu {
@@ -54,6 +59,44 @@ button{
     border-radius: 2vw;
     cursor: pointer;
     border: 0;
+}
+
+/* Main */
+
+main .main_topo {
+    background-image: url('./Img/Interior\ Carro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 70vh;
+    filter: brightness(20%);
+}
+
+main .main_topo .titulo {
+
+}
+
+main .main_topo .bloco {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 70vw;
+    height: 20vh;
+}
+
+main .main_topo .campos {
+
+}
+
+main .main_topo button {
+    width: 15%;
 }
 
 /* Celular */
