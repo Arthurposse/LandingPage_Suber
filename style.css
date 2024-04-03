@@ -42,6 +42,7 @@ header .nav_1, header .nav_2 {
     display: flex;
     align-items: center;
     gap: 20px;
+    width: 30vw;
 }
 
 header .lingua {
@@ -59,20 +60,13 @@ header .nav_2 .lingua p {
     width: 100%;
 }
 
-header .nav_2 #ajuda{
-    width: 20%;
-}
-button{
+header .nav_2 button{
     color: black;
     width: 50%;
     height: 5vh;
     border-radius: 2vw;
     cursor: pointer;
     border: 0;
-}
-
-.TESTE {
-    width: 100%;
 }
 
 /* Main - Parte para alugar o carro */
@@ -120,7 +114,12 @@ main .main_1 input {
 }
 
 main .main_1 button {
-    width: 15%;
+    color: black;
+    width: 14%;
+    height: 5vh;
+    border-radius: 2vw;
+    cursor: pointer;
+    border: 0;
 }
 
 /* Main - Parte de ofertas */
@@ -219,6 +218,7 @@ main .main_3 .bloco_titulo {
 main .main_3 .titulo_sobre {
     font-size: 2.5rem;
     padding: 6%;
+    width: 20vw;
 }
 
 main .main_3 .bloco_sobre_empresa {
