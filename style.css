@@ -59,6 +59,9 @@ header .nav_2 .lingua p {
     width: 100%;
 }
 
+header .nav_2 #ajuda{
+    width: 20%;
+}
 button{
     color: black;
     width: 50%;
