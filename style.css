@@ -52,8 +52,7 @@ header .lingua {
 }
 
 header .lingua img {
-    width: 30%;
-    height: 3vh;
+    width: 80%;
 }
 
 header .nav_2 .lingua p {
@@ -67,6 +66,10 @@ button{
     border-radius: 2vw;
     cursor: pointer;
     border: 0;
+}
+
+.TESTE {
+    width: 100%;
 }
 
 /* Main - Parte para alugar o carro */
