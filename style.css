@@ -1,13 +1,19 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: white;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-/* Heade */
+:root {
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #000000;
+}
 
-header{
+/* Header */
+
+header {
     display: flex;
     gap: 25px;
     align-items: center;
@@ -16,17 +22,19 @@ header{
     width: 100vw;
     height: 10%;
     padding: 1%;
+    color: var(--cor-primaria);
 }
 
 header a {
     text-decoration: none;
+    color: var(--cor-primaria);
 }
 
 header #menu {
     display: none;
 }
 
-header .nav_1 h3{
+header .nav_1 h3 {
     cursor: pointer;
 }
 
@@ -43,7 +51,7 @@ header .lingua {
     gap: 10px;
 }
 
-header .lingua img{
+header .lingua img {
     width: 30%;
     height: 3vh;
 }
@@ -61,9 +69,9 @@ button{
     border: 0;
 }
 
-/* Main */
+/* Main - Parte para alugar o carro */
 
-main .main_topo {
+main .main_1 {
     background-image: url('./Img/Interior\ Carro.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,14 +82,15 @@ main .main_topo {
     gap: 20px;
     width: 100%;
     height: 70vh;
-    filter: brightness(20%);
+    /* filter: brightness(20%); */
 }
 
-main .main_topo .titulo {
-
+main .main_1 .titulo_alugar_carro {
+    font-size: 2.5rem;
+    color: var(--cor-primaria);
 }
 
-main .main_topo .bloco {
+main .main_1 .bloco {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -91,13 +100,141 @@ main .main_topo .bloco {
     height: 20vh;
 }
 
-main .main_topo .campos {
-
+main .main_1 .campos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--cor-primaria);
 }
 
-main .main_topo button {
+main .main_1 input {
+    height: 7vh;
+    padding: 5%;
+    border: 0;
+}
+
+main .main_1 button {
     width: 15%;
 }
+
+/* Main - Parte de ofertas */
+
+main .main_2 {
+    padding-bottom: 5%;
+}
+
+main .main_2 .titulo_ofertas {
+    font-size: 2.5rem;
+    padding: 6%;
+}
+
+main .main_2 .carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+main .main_2 .bloco_carro {
+    background-color: white;
+    width: 26vw;
+    height: 38vh;
+    border: 0;
+    box-shadow: inset 0 0 5px #000000;
+}
+
+main .main_2 .bloco_carro_topo {
+    background-color: gray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+}
+
+main .main_2 .texto_bloco_carro {
+    margin-right: 3%;
+}
+
+main .main_2 .bloco_carro_meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+main .main_2 .bloco_carro_meio img {
+    width: 38%;
+}
+
+main .main_2 .bloco_carro_meio .texto_infos_oferta {
+    background-color: rgba(128, 128, 128, 0.562);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    text-align: center;
+    padding: 1.5%;
+}
+
+main .main_2 .detalhes_ofertas {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3%;
+}
+
+main .main_2 .bloco_carro a {
+    color: black;
+}
+
+main .main_2 .texto_sobre_oferta {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 0.8rem;
+}
+
+/* Main - Parte sobre a empresa */
+
+main .main_3 {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5%;
+    color: var(--cor-primaria);
+}
+
+main .main_3 .bloco_titulo {
+    align-self: flex-end;
+    padding-top: 5%;
+}
+
+main .main_3 .titulo_sobre {
+    font-size: 2.5rem;
+    padding: 6%;
+}
+
+main .main_3 .bloco_sobre_empresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin-top: 4%;
+}
+
+main .main_3 .bloco_sobre_empresa img {
+    width: 120%;
+    border: 5px solid var(--cor-primaria);
+}
+
+main .main_3 .bloco_sobre_empresa p {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+/* Medias Queries */
 
 /* Celular */
 
