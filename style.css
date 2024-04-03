@@ -225,7 +225,7 @@ main .main_3 .bloco_sobre_empresa {
 }
 
 main .main_3 .bloco_sobre_empresa img {
-    width: 120%;
+    width: 100%;
     border: 5px solid var(--cor-primaria);
 }
 
