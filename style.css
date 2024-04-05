@@ -318,7 +318,43 @@ footer{
 
 }
 
+footer .alinhar{
+    padding: 10vh;
+}
 
+footer .redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0 4vh 0;
+    gap: 4vw;
+}
+
+footer .lojas{
+    display: flex;
+    justify-content: start;
+    padding-bottom: 4vh;
+}
+
+footer img{
+    cursor: pointer;
+}
+
+footer p{
+    color: #AFAFAF;
+}
+
+footer .alinhar1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1vw;
+}
+
+.alinhar1 .left{
+    padding-right: 0.5vw;
+}
 
 /* Medias Queries */
 
