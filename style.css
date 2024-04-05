@@ -9,6 +9,7 @@
 :root {
     --cor-primaria: #FFFFFF;
     --cor-secundaria: #000000;
+    --cor-terceira:#EAEAEA;
 }
 
 /* Header */
@@ -240,6 +241,85 @@ main .main_3 .bloco_sobre_empresa p {
     text-align: justify;
 }
 
+/* Main - Parte cadastro */
+
+main .main_4 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5%;
+    color: var(--cor-secundaria);
+    margin-top: 5vh;
+}
+
+.main_4 h2{
+    display: flex;
+    justify-content: start;
+    padding: 10vw;
+
+}
+
+.main_4 hr{
+    height: 22vh;
+    left: 50%;
+    border: 0.2vw solid black;
+    border-radius: 3vw;
+    margin-right: 20vw;
+}
+
+.main_4 .inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main_4 input{
+    width: 30vw;
+    height: 4vh;
+    border: none;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terceira);
+    margin-bottom: 1vh;
+}
+
+.main_4 .nome, .email, .senha{
+    padding: 5%;
+}
+
+.main_4 button{
+    color: var(--cor-primaria);
+    width: 15vw;
+    height: 3vh;
+    background-color: var(--cor-secundaria);
+    border-radius: 2vw;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.main_4 button:hover{
+    color: var(--cor-secundaria);
+    width: 15vw;
+    height: 3vh;
+    background-color: var(--cor-terceira);
+    border-radius: 2vw;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+/* Footer */
+footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--cor-secundaria);
+
+}
+
+
+
 /* Medias Queries */
 
 /* Celular */
@@ -267,3 +347,4 @@ main .main_3 .bloco_sobre_empresa p {
         width: 6%;
     }
 }
+
