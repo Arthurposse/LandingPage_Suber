@@ -352,6 +352,137 @@ footer .alinhar1 .left {
 
 /* Medias Queries */
 
+/* Tablet */
+
+@media screen and (min-width: 481px) and (max-width: 820px){
+    
+    /* Header */
+    
+    header #menu {
+        display: flex;
+        width: 6%;
+    }
+
+    header .nav_1 {
+        display: none;
+    }
+
+    header .nav_2 {
+        justify-content: flex-end;
+        width: 70vw;
+    }
+
+    /* Main - Parte para alugar o carro */
+
+    .main_1 .titulo_alugar_carro {
+        margin-top: 3vh;
+        font-size: 1.8rem;
+    }
+
+    .main_1 .bloco {
+        flex-direction: column;
+        width: 44vw;
+        height: 55vh;
+    }
+
+    .main_1 .bloco button {
+        width: 20vw;
+    }
+
+    .main_1 .bloco .campos h2 {
+        font-size: 1rem;
+    }
+
+    /* Main - Parte de ofertas */
+
+    .main_2 .bloco_carro {
+        width: 38vw;
+        height: 50vh;
+    }
+
+    .main_2 .bloco_carro:nth-child(2), .main_2 .bloco_carro:nth-child(3) {
+        display: none;
+    }
+
+    .main_2 .carrossel .icons_setas {
+        width: 8%;
+    }
+
+    .main_2 .bloco_carro_meio {
+        flex-direction: column;
+    }
+
+    .main_2 .bloco_carro_meio img {
+        width: 70%;
+    }
+
+    /* Main - Parte sobre a empresa */
+
+    .main_3 .bloco_titulo {
+        align-self: center;
+        padding: 5% 0 0 0;
+    }
+
+    .main_3 .bloco_sobre_empresa {
+        flex-direction: column;
+    }
+
+    .main_3 .bloco_sobre_empresa img {
+        width: 50vw;
+    }
+
+    .main_3 .bloco_sobre_empresa p {
+        width: 50vw;
+    }
+
+    /* Main - Parte cadastro */
+
+    .main_4 {
+        flex-direction: column;
+        padding: 12%;
+    }
+
+    .main_4 .titulo_cadastro {
+        display: flex;
+        gap: 10px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .main_4 .inputs {
+        margin-top: 5%;
+    }
+
+    .main_4 input {
+        width: 60vw;
+    }
+
+    .main_4 button {
+        width: 30vw;
+    }
+
+    /* Footer */
+
+    footer .alinhar, footer .alinhar1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .alinhar1 p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .redes img {
+        width: 10%;
+    }
+}
+
 /* Celular */
 
 @media screen and (min-width: 320px) and (max-width: 480px){
@@ -473,137 +604,6 @@ footer .alinhar1 .left {
         align-items: center;
         justify-content: center;
         margin: 0;
-    }
-
-    footer .alinhar1 p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer .redes img {
-        width: 10%;
-    }
-}
-
-/* Tablet */
-
-@media screen and (min-width: 481px) and (max-width: 820px){
-    
-    /* Header */
-    
-    header #menu {
-        display: flex;
-        width: 6%;
-    }
-
-    header .nav_1 {
-        display: none;
-    }
-
-    header .nav_2 {
-        justify-content: flex-end;
-        width: 70vw;
-    }
-
-    /* Main - Parte para alugar o carro */
-
-    .main_1 .titulo_alugar_carro {
-        margin-top: 3vh;
-        font-size: 1.8rem;
-    }
-
-    .main_1 .bloco {
-        flex-direction: column;
-        width: 44vw;
-        height: 55vh;
-    }
-
-    .main_1 .bloco button {
-        width: 20vw;
-    }
-
-    .main_1 .bloco .campos h2 {
-        font-size: 1rem;
-    }
-
-    /* Main - Parte de ofertas */
-
-    .main_2 .bloco_carro {
-        width: 38vw;
-        height: 50vh;
-    }
-
-    .main_2 .bloco_carro:nth-child(2), .main_2 .bloco_carro:nth-child(3) {
-        display: none;
-    }
-
-    .main_2 .carrossel .icons_setas {
-        width: 8%;
-    }
-
-    .main_2 .bloco_carro_meio {
-        flex-direction: column;
-    }
-
-    .main_2 .bloco_carro_meio img {
-        width: 70%;
-    }
-
-    /* Main - Parte sobre a empresa */
-
-    .main_3 .bloco_titulo {
-        align-self: center;
-        padding: 5% 0 0 0;
-    }
-
-    .main_3 .bloco_sobre_empresa {
-        flex-direction: column;
-    }
-
-    .main_3 .bloco_sobre_empresa img {
-        width: 50vw;
-    }
-
-    .main_3 .bloco_sobre_empresa p {
-        width: 50vw;
-    }
-
-    /* Main - Parte cadastro */
-
-    .main_4 {
-        flex-direction: column;
-        padding: 12%;
-    }
-
-    .main_4 .titulo_cadastro {
-        display: flex;
-        gap: 10px;
-    }
-
-    hr {
-        display: none;
-    }
-
-    .main_4 .inputs {
-        margin-top: 5%;
-    }
-
-    .main_4 input {
-        width: 60vw;
-    }
-
-    .main_4 button {
-        width: 30vw;
-    }
-
-    /* Footer */
-
-    footer .alinhar, footer .alinhar1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 
     footer .alinhar1 p {
