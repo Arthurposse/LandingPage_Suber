@@ -18,7 +18,7 @@
 
  - Arthur Possebon
     - ✔️ Figma: Desktop (Partes do main) e mobile (Header, umas partes do main e o footer).
-    - ✔️ Html/css: Header, partes do main e partes do footer.
+    - ✔️ Html/css: Header, partes do main, partes do footer e responsividade do site.
     - ✔️ BD: Planejamento do banco e criação do banco e suas tabelas.
 
  - Lorenzo Vanlare
