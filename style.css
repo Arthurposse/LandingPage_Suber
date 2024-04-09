@@ -112,6 +112,10 @@ header .nav_2 button{
     border: 0;
 }
 
+.main_1 .input_celular {
+    display: none;
+}
+
 .main_1 button {
     color: black;
     width: 14%;
@@ -489,18 +493,26 @@ footer .alinhar1 .left {
     
     /* Header */
 
+    header {
+        padding: 2%;
+    }
+
     header #menu {
         display: flex;
-        width: 7%;
+        width: 8%;
     }
 
     header .nav_1 {
         display: none;
     }
 
-    header .nav_2 {
-        justify-content: flex-end;
-        width: 100%;
+    header .nav_2 section, header .nav_2 a{
+        display: none;
+    }
+
+    header .nav_2 button {
+        width: 30vw;
+        font-size: 1.2rem;
     }
 
     /* Main - Parte para alugar o carro */
@@ -523,7 +535,7 @@ footer .alinhar1 .left {
     }
 
     .main_1 .bloco .campos h2 {
-        font-size: 1rem;
+        display: none;
     }
 
     /* Main - Parte de ofertas */
