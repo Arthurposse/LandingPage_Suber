@@ -66,6 +66,12 @@ header .nav_2 button{
     cursor: pointer;
 }
 
+header .nav_2 button:hover{
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-primaria);
+}
+
 /* Main - Parte para alugar o carro */
 
 .main_1 {
@@ -120,6 +126,12 @@ header .nav_2 button{
     height: 5vh;
     cursor: pointer;
     border: 0;
+}
+
+.main_1 button:hover{
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-primaria);
 }
 
 /* Main - Parte de ofertas */
@@ -459,7 +471,7 @@ footer .alinhar1 .left {
     }
 
     .main_3 .bloco_titulo .titulo_sobre {
-        font-size: 3.2rem;
+        font-size: 3.8rem;
     }
 
     .main_3 .bloco_sobre_empresa {
