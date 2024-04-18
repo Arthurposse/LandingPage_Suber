@@ -144,6 +144,7 @@ header .nav_2 button:hover{
     display: flex;
     justify-content: space-evenly;
 }
+
 .main_2 .titulo_ofertas {
     font-size: 2.5rem;
     padding: 6%;
@@ -154,6 +155,10 @@ header .nav_2 button:hover{
     justify-content: center;
     align-items: center;
     gap: 32px;
+}
+
+.carousel-indicators .indicador_pag {
+    background-color: var(--cor-secundaria)!important;
 }
 
 .main_2 .carrossel .icons_setas {
