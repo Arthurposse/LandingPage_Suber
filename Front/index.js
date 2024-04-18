@@ -33,7 +33,7 @@ button.onclick = async function(e) {
     let password = document.getElementById('password').value;
     let data = {name, email, password}
 
-    const response = await fetch('http://localhost:3010/api/store/task', {
+    const response = await fetch('http://localhost:3008/api/store/task', {
         method: "POST",
         headers: {"Content-type": "application/json;charset=UTF-8"},
         body: JSON.stringify(data)
@@ -43,7 +43,7 @@ button.onclick = async function(e) {
     console.log(content);
     if (content.sucess) {
         alert ("Sucesso!!");
-        // window.location.reload();
+        window.location.reload();
         //recarrega a página
     } else {
         console.error()
