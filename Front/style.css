@@ -135,9 +135,7 @@ header .nav_2 button:hover{
 }
 
 /* Main - Parte de ofertas */
-#carouselExampleIndicators{
-    padding-bottom: 6%;
-}
+
 .main_2 {
     padding-bottom: 8%;
 }
@@ -152,20 +150,8 @@ header .nav_2 button:hover{
     padding: 6%;
 }
 
-.main_2 .carrossel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-}
-
 .carousel-indicators .indicador_pag {
     background-color: var(--cor-secundaria)!important;
-}
-
-.main_2 .carrossel .icons_setas {
-    width: 3%;
-    cursor: pointer;
 }
 
 .main_2 .bloco_carro {
@@ -353,6 +339,10 @@ footer img {
     cursor: pointer;
 }
 
+footer .img_redes {
+    width: 90%;
+}
+
 footer p {
     color: #AFAFAF;
 }
@@ -438,11 +428,6 @@ footer .alinhar1 .left {
 
     .main_2 .bloco_carro:nth-child(2), .main_2 .bloco_carro:nth-child(3) {
         display: none;
-    }
-
-    
-    .main_2 .carrossel .icons_setas {
-        width: 8%;
     }
     
     .main_2 .bloco_carro .texto_bloco_carro {
@@ -547,8 +532,8 @@ footer .alinhar1 .left {
         align-items: center;
     }
 
-    footer .redes img {
-        width: 10%;
+    footer .redes .img_redes {
+        width: 90%;
     }
 }
 
@@ -705,8 +690,8 @@ footer .alinhar1 .left {
         align-items: center;
     }
 
-    footer .redes img {
-        width: 10%;
+    footer .redes .img_redes {
+        width: 90%;
     }
 }
 
