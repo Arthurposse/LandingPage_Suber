@@ -135,7 +135,9 @@ header .nav_2 button:hover{
 }
 
 /* Main - Parte de ofertas */
-
+#carouselExampleIndicators{
+    padding-bottom: 6%;
+}
 .main_2 {
     padding-bottom: 8%;
 }
